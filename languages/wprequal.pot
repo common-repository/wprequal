@@ -1,0 +1,1300 @@
+# Copyright (C) 2023 WPrequal
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPrequal 8.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wprequal\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-07-30T17:24:14+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: wprequal\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+msgid "WPrequal"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wprequal.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Mortgage and Real Estate Lead Capture System"
+msgstr ""
+
+#: includes/abstracts/class.Mail.php:12
+#: includes/abstracts/class.Options.php:13
+#: includes/abstracts/class.PostType.php:15
+#: includes/abstracts/trait.Api.php:11
+#: includes/classes/class.Calc.php:11
+#: includes/classes/class.ContactForm.php:13
+#: includes/classes/class.ContactFormAdmin.php:13
+#: includes/classes/class.Core.php:11
+#: includes/classes/class.Email.php:11
+#: includes/classes/class.Entry.php:12
+#: includes/classes/class.Lead.php:11
+#: includes/classes/class.Log.php:11
+#: includes/classes/class.Nonce.php:16
+#: includes/classes/class.Note.php:11
+#: includes/classes/class.PostEntry.php:11
+#: includes/classes/class.Referrer.php:15
+#: includes/classes/class.RegisterForm.php:13
+#: includes/classes/class.RegisterFormAdmin.php:13
+#: includes/classes/class.Settings.php:11
+#: includes/classes/class.SurveyForm.php:13
+#: includes/classes/class.SurveyFormAdmin.php:14
+#: includes/classes/class.Text.php:11
+#: includes/classes/class.Update.php:11
+#: includes/functions/activate.php:15
+#: includes/functions/auto-update.php:15
+#: includes/functions/deactivate.php:15
+#: includes/functions/hide-metaboxes.php:15
+#: includes/functions/refresh.php:15
+#: includes/functions/required-class.php:15
+#: includes/functions/required-span.php:15
+#: includes/functions/reset-defaults.php:15
+#: includes/functions/set-capibilities.php:15
+#: includes/functions/update-notice.php:15
+#: includes/functions/view.php:15
+#: includes/functions/webhook.php:15
+#: includes/widgets/class.WidgetAmortize.php:12
+#: includes/widgets/class.WidgetCalc.php:12
+#: includes/widgets/class.WidgetCalcButton.php:12
+#: includes/widgets/class.WidgetContactForm.php:14
+#: includes/widgets/class.WidgetInit.php:13
+#: includes/widgets/class.WidgetRegisterForm.php:14
+#: includes/widgets/class.WidgetSurveyForm.php:14
+#: includes/widgets/class.WidgetSurveyFormButton.php:14
+#: wprequal.php:31
+msgid "Access denied!!"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:49
+msgid "Access Token"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:62
+msgid "To Email (default)"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:75
+msgid "Activate Connect API"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:87
+msgid "Automatic Updates"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:99
+msgid "Allow Error Logging"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:124
+msgid "URL Referrer Param"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:137
+msgid "URL Referrer Cookie"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:150
+msgid "Social Referrer Cookie"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:178
+msgid "Paid"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:181
+msgid "license required to use this feature"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:189
+msgid "FontAwesome Pro"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:201
+msgid "Pro Kits URL"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:214
+msgid "Pro Icon Search"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:240
+msgid "General"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:247
+#: includes/abstracts/class.Options.php:951
+msgid "Calculator Title"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:260
+#: views/survey/admin/amount.php:23
+msgid "Currency"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:273
+msgid "Currency Position"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:283
+msgid "Before Amonut"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:284
+#: views/survey/admin/amount.php:44
+msgid "After Amount"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:292
+msgid "Focus"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:299
+msgid "Focus - Title"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:312
+msgid "Focus - Background Color"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:325
+msgid "Focus - Message"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:341
+msgid "Get Quote"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:348
+msgid "Get Quote - Contact Form"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:362
+msgid "Get Quote - Show"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:374
+msgid "Get Quote - Button Text"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:387
+msgid "Get Quote - Button Color"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:400
+msgid "Get Quote - Button Font Color"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:413
+msgid "Get Quote - Button Hover Color"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:426
+msgid "Get Quote - Button Hover Font Color"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:439
+msgid "Get Quote - Call to Action"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:452
+msgid "wprequal_get_quote_confirmation"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:468
+msgid "Prices"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:475
+msgid "Price Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:488
+msgid "Price Min"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:501
+msgid "Price Max"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:514
+msgid "Price Step"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:527
+msgid "Price Default"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:540
+msgid "Down Payment"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:547
+msgid "Down Payment Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:560
+msgid "Down Payment Min"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:573
+msgid "Down Payment Max"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:586
+msgid "Down Payment Step"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:599
+msgid "Down Payment Default"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:612
+msgid "Loan Term"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:619
+msgid "Term Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:632
+msgid "Term Suffix"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:645
+msgid "Term Type"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:656
+msgid "Years"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:657
+msgid "Months"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:662
+msgid "Term Min"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:675
+msgid "Term Max"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:688
+msgid "Term Step"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:701
+msgid "Term Default"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:714
+msgid "Interest Rate"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:721
+msgid "Rate Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:734
+msgid "Rate Min"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:749
+msgid "Rate Max"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:764
+msgid "Rate Step"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:779
+msgid "Rate Default"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:794
+msgid "Taxes"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:801
+msgid "Tax Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:814
+msgid "Tax Min"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:827
+msgid "Tax Max"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:840
+msgid "Tax Step"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:853
+msgid "Tax Default"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:866
+msgid "Insurance"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:873
+msgid "Insurance Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:886
+msgid "Insurance Min"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:899
+msgid "Insurance Max"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:912
+msgid "Insurance Step"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:925
+msgid "Insurance Default"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:964
+msgid "Months Slider Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:977
+msgid "Graph - Priniple Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:990
+msgid "Graph - Principal Color"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1003
+msgid "Graph - Principal Border"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1016
+msgid "Graph - Interest Label"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1029
+msgid "Graph - Interest Color"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1042
+msgid "Graph - Interest Border"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1068
+msgid " Survey Form"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1082
+msgid "Seconds To Delay Popup"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1095
+msgid "Minutes Between Popups"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1108
+msgid "Force Registration"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1120
+msgid "Pop Up on Homepage"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1132
+msgid "Pop Up on Blog Posts"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1144
+msgid "Pop Up on Pages"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1169
+msgid "Activate Webhook"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1181
+msgid "Webhook URL"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1207
+#: views/survey/admin/template.php:27
+msgid "Mortgage"
+msgstr ""
+
+#: includes/abstracts/class.Options.php:1219
+#: views/survey/admin/template.php:28
+msgid "Real Estate"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:128
+msgid "Name"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:129
+#: views/settings/startup.php:65
+msgid "Email"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:130
+#: views/email/notification.php:115
+#: views/lead/contact.php:63
+msgid "Phone"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:131
+#: views/email/notification.php:127
+#: views/lead/contact.php:74
+msgid "Comments"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:133
+#: views/survey/admin/slide-options.php:20
+msgid "Text Input"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:134
+msgid "Number"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:135
+msgid "Checkbox"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:136
+msgid "Radio Button"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:137
+msgid "Select"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:138
+msgid "Text Area"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:139
+msgid "Range Slider"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:140
+msgid "Hidden"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:141
+msgid "Section"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:248
+msgid "Form Builder - Contact Fields"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:256
+msgid "Form Builder - Lead Fields"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:264
+msgid "Form Builder - Inputs"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:273
+#: includes/classes/class.RegisterFormAdmin.php:94
+msgid "Form Builder - Details"
+msgstr ""
+
+#: includes/classes/class.ContactFormAdmin.php:282
+#: includes/classes/class.RegisterFormAdmin.php:103
+#: includes/classes/class.SurveyFormAdmin.php:221
+msgid "Form Builder - Shortcode"
+msgstr ""
+
+#: includes/classes/class.Lead.php:491
+msgid "Contact Info"
+msgstr ""
+
+#: includes/classes/class.Lead.php:500
+msgid "Lead Fields"
+msgstr ""
+
+#: includes/classes/class.Lead.php:557
+msgid "checkall"
+msgstr ""
+
+#: includes/classes/class.Lead.php:558
+#: views/contact/admin/name.php:20
+#: views/settings/startup.php:56
+msgid "Full Name"
+msgstr ""
+
+#: includes/classes/class.Lead.php:559
+msgid "Lead Source"
+msgstr ""
+
+#: includes/classes/class.Lead.php:560
+msgid "Social Media Referrer"
+msgstr ""
+
+#: includes/classes/class.Lead.php:561
+msgid "URL Param Referrer"
+msgstr ""
+
+#: includes/classes/class.Lead.php:562
+msgid "Date Created"
+msgstr ""
+
+#: includes/classes/class.Note.php:86
+msgid "Notes"
+msgstr ""
+
+#: includes/classes/class.Note.php:222
+msgid "New note:"
+msgstr ""
+
+#: includes/classes/class.Note.php:233
+msgid "Save note"
+msgstr ""
+
+#: includes/classes/class.RegisterFormAdmin.php:85
+msgid "Form Builder"
+msgstr ""
+
+#: includes/classes/class.Settings.php:223
+#: includes/classes/class.Settings.php:224
+#: views/settings/page.php:20
+msgid "WPrequal Settings"
+msgstr ""
+
+#: includes/classes/class.Settings.php:348
+msgid "Dashboard"
+msgstr ""
+
+#: includes/classes/class.Settings.php:353
+msgid "Pop Up"
+msgstr ""
+
+#: includes/classes/class.Settings.php:358
+msgid "Calculator"
+msgstr ""
+
+#: includes/classes/class.Settings.php:363
+msgid "Amortize"
+msgstr ""
+
+#: includes/classes/class.Settings.php:368
+msgid "Referral Tracking"
+msgstr ""
+
+#: includes/classes/class.Settings.php:373
+msgid "FontAwesome"
+msgstr ""
+
+#: includes/classes/class.Settings.php:378
+msgid "Webhook"
+msgstr ""
+
+#: includes/classes/class.Settings.php:383
+msgid "Extensions"
+msgstr ""
+
+#: includes/classes/class.Settings.php:771
+msgid "Email address to send notifications if no other email address is available."
+msgstr ""
+
+#: includes/classes/class.SurveyForm.php:718
+msgid "Popup Form"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:172
+msgid "WARNING: You are about to reset the form slides. All edits to the form slides will be lost. Do you want to continue?"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:182
+msgid "You must select a template!"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:195
+msgid "Form Builder - Options"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:203
+msgid "Form Builder - Slides"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:212
+msgid "Form Builder - Styles"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:229
+msgid "Form Builder - Template"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:237
+msgid "Form Builder - Back Link"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:362
+msgid "WPrequal Survey Popup"
+msgstr ""
+
+#: includes/classes/class.SurveyFormAdmin.php:388
+#: views/survey/admin/amount.php:29
+#: views/survey/admin/amount.php:42
+#: views/survey/admin/conditional-logic-result.php:24
+#: views/survey/admin/contact.php:23
+#: views/survey/admin/template.php:26
+msgid "Select One"
+msgstr ""
+
+#: includes/widgets/class.WidgetAmortize.php:21
+msgid "WPrequal Amortize"
+msgstr ""
+
+#: includes/widgets/class.WidgetAmortize.php:22
+msgid "Display a Mortgage Amortization Calculator."
+msgstr ""
+
+#: includes/widgets/class.WidgetCalc.php:21
+msgid "WPrequal Calculator"
+msgstr ""
+
+#: includes/widgets/class.WidgetCalc.php:23
+msgid "Display a Mortgage Calculator."
+msgstr ""
+
+#: includes/widgets/class.WidgetCalc.php:69
+msgid "Focus Template"
+msgstr ""
+
+#: includes/widgets/class.WidgetCalc.php:78
+msgid "Small Calculator"
+msgstr ""
+
+#: includes/widgets/class.WidgetCalc.php:87
+msgid "Dark Background"
+msgstr ""
+
+#: includes/widgets/class.WidgetCalcButton.php:21
+msgid "WPrequal Calculator Button"
+msgstr ""
+
+#: includes/widgets/class.WidgetCalcButton.php:22
+msgid "Display a Mortgage Calculator Pop Up Button."
+msgstr ""
+
+#: includes/widgets/class.WidgetContactForm.php:23
+msgid "WPrequal Contact Form"
+msgstr ""
+
+#: includes/widgets/class.WidgetContactForm.php:24
+msgid "Add a contact form"
+msgstr ""
+
+#: includes/widgets/class.WidgetRegisterForm.php:23
+msgid "WPrequal Register Form"
+msgstr ""
+
+#: includes/widgets/class.WidgetRegisterForm.php:24
+msgid "Add a register form"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyForm.php:23
+msgid "WPrequal Survey Form"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyForm.php:24
+msgid "Add a mortgage survey form"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyFormButton.php:23
+msgid "WPrequal Survey Form Button"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyFormButton.php:24
+msgid "Add a mortgage survey form button"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyFormButton.php:67
+#: views/survey/admin/text.php:31
+msgid "None"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyFormButton.php:68
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyFormButton.php:69
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/class.WidgetSurveyFormButton.php:70
+msgid "Center"
+msgstr ""
+
+#: views/admin/submit-metabox.php:53
+msgid "Delete Permanently"
+msgstr ""
+
+#: views/admin/upgrade-metabox.php:21
+msgid "Upgrade Required to edit survey forms."
+msgstr ""
+
+#: views/buttons/free-fa-icons.php:18
+msgid "Free Font Awesome Icons"
+msgstr ""
+
+#: views/buttons/get-connect-api.php:18
+msgid "Get Connect API"
+msgstr ""
+
+#: views/buttons/go-premium.php:20
+msgid "Go Premium to Unlock"
+msgstr ""
+
+#: views/buttons/go-pro.php:18
+msgid "Go Pro to Unlock"
+msgstr ""
+
+#: views/buttons/help-buttons.php:40
+msgid "Go Premium"
+msgstr ""
+
+#: views/buttons/help-buttons.php:51
+msgid "Go Pro"
+msgstr ""
+
+#: views/buttons/help-buttons.php:61
+msgid "My Account"
+msgstr ""
+
+#: views/buttons/help-buttons.php:70
+msgid "Connect API"
+msgstr ""
+
+#: views/buttons/help-buttons.php:78
+msgid "How-To"
+msgstr ""
+
+#: views/buttons/help-buttons.php:84
+msgid "Developer"
+msgstr ""
+
+#: views/buttons/help-buttons.php:90
+msgid "Support"
+msgstr ""
+
+#: views/buttons/pro-fa-icons.php:18
+msgid "Font Awesome Icons"
+msgstr ""
+
+#: views/calc/amortize.php:37
+msgid "Principal:"
+msgstr ""
+
+#: views/calc/amortize.php:40
+msgid "Interest:"
+msgstr ""
+
+#: views/calc/amortize.php:43
+msgid "Balance:"
+msgstr ""
+
+#: views/calc/amortize.php:47
+msgid "Month:"
+msgstr ""
+
+#: views/calc/button.php:18
+msgid "Mortgage Calculator"
+msgstr ""
+
+#: views/calc/insurance.php:23
+#: views/calc/property-tax.php:23
+msgid " /year"
+msgstr ""
+
+#: views/calc/interest-rate.php:23
+msgid "%"
+msgstr ""
+
+#: views/contact/admin/default-value.php:21
+#: views/contact/admin/default.php:21
+msgid "Default Value"
+msgstr ""
+
+#: views/contact/admin/details.php:24
+#: views/survey/admin/button.php:20
+#: views/survey/widget/button-form.php:18
+msgid "Button Text"
+msgstr ""
+
+#: views/contact/admin/details.php:32
+msgid "From Name"
+msgstr ""
+
+#: views/contact/admin/details.php:37
+msgid "What name should your leads be sent from?"
+msgstr ""
+
+#: views/contact/admin/details.php:42
+msgid "From Email Address"
+msgstr ""
+
+#: views/contact/admin/details.php:47
+msgid "What email should your leads be sent from?"
+msgstr ""
+
+#: views/contact/admin/details.php:52
+msgid "To Email Address"
+msgstr ""
+
+#: views/contact/admin/details.php:57
+msgid "Where you would like your WPrequal lead emails sent?"
+msgstr ""
+
+#: views/contact/admin/details.php:62
+msgid "Bcc Email Address"
+msgstr ""
+
+#: views/contact/admin/details.php:79
+msgid "SMS Text Carrier Gateway"
+msgstr ""
+
+#: views/contact/admin/details.php:86
+msgid "Where you would like your WPrequal notification text sent?"
+msgstr ""
+
+#: views/contact/admin/details.php:86
+msgid "Find Your Carrier Gateway"
+msgstr ""
+
+#: views/contact/admin/email-mask.php:24
+msgid "Email Mask"
+msgstr ""
+
+#: views/contact/admin/label.php:21
+msgid "Label"
+msgstr ""
+
+#: views/contact/admin/max.php:21
+msgid "Maximum"
+msgstr ""
+
+#: views/contact/admin/min.php:21
+msgid "Minimum"
+msgstr ""
+
+#: views/contact/admin/name.php:31
+msgid "First Name Label"
+msgstr ""
+
+#: views/contact/admin/name.php:36
+msgid "Last Name Label"
+msgstr ""
+
+#: views/contact/admin/options.php:19
+msgid "Options"
+msgstr ""
+
+#: views/contact/admin/phone-mask.php:26
+msgid "Phone Mask"
+msgstr ""
+
+#: views/contact/admin/placeholder.php:19
+msgid "Placeholder"
+msgstr ""
+
+#: views/contact/admin/required.php:19
+msgid "Required"
+msgstr ""
+
+#: views/contact/admin/step.php:21
+msgid "Step"
+msgstr ""
+
+#: views/contact/widget/contact-form.php:20
+#: views/contact/widget/register-form.php:20
+msgid "Ttile:"
+msgstr ""
+
+#: views/contact/widget/contact-form.php:34
+#: views/contact/widget/register-form.php:34
+msgid "Content:"
+msgstr ""
+
+#: views/contact/widget/contact-form.php:45
+#: views/survey/admin/contact.php:32
+#: views/survey/admin/slide-options.php:23
+msgid "Contact Form"
+msgstr ""
+
+#: views/contact/widget/register-form.php:45
+msgid "Register Form"
+msgstr ""
+
+#: views/email/notification.php:26
+msgid "WPrequal Lead"
+msgstr ""
+
+#: views/email/notification.php:69
+msgid "Please contact your new WPrequal Lead ASAP."
+msgstr ""
+
+#: views/email/notification.php:79
+#: views/lead/contact.php:30
+msgid "First Name"
+msgstr ""
+
+#: views/email/notification.php:91
+#: views/lead/contact.php:41
+msgid "Last Name"
+msgstr ""
+
+#: views/email/notification.php:103
+#: views/lead/contact.php:52
+msgid "Email Address"
+msgstr ""
+
+#: views/email/notification.php:166
+#: views/lead/contact.php:88
+msgid "Source URL"
+msgstr ""
+
+#: views/lead/export.php:18
+#: views/lead/export.php:27
+msgid "Export Leads"
+msgstr ""
+
+#: views/settings/startup.php:39
+msgid "API Access Token Required"
+msgstr ""
+
+#: views/settings/startup.php:50
+msgid "Please keep me up to date with all the latest security and feature updates."
+msgstr ""
+
+#: views/survey/admin/amount.php:39
+msgid "Currency Placement"
+msgstr ""
+
+#: views/survey/admin/amount.php:43
+msgid "Before Amount"
+msgstr ""
+
+#: views/survey/admin/amount.php:50
+msgid "Default Amount"
+msgstr ""
+
+#: views/survey/admin/amount.php:53
+msgid "Step Amount"
+msgstr ""
+
+#: views/survey/admin/amount.php:58
+msgid "Minimum Amount"
+msgstr ""
+
+#: views/survey/admin/amount.php:61
+msgid "Maximum Amount"
+msgstr ""
+
+#: views/survey/admin/back-text.php:22
+msgid "Back Link Text"
+msgstr ""
+
+#: views/survey/admin/back-text.php:27
+msgid "Leave blank to hide back link."
+msgstr ""
+
+#: views/survey/admin/buttons.php:24
+msgid "Add Button"
+msgstr ""
+
+#: views/survey/admin/conditional-logic-result.php:28
+msgid "is equal to"
+msgstr ""
+
+#: views/survey/admin/conditional-logic-result.php:29
+msgid "is not equal to"
+msgstr ""
+
+#: views/survey/admin/conditional-logic-result.php:30
+msgid "is greater than"
+msgstr ""
+
+#: views/survey/admin/conditional-logic-result.php:31
+msgid "is less than"
+msgstr ""
+
+#: views/survey/admin/conditional-logic-result.php:32
+msgid "is greater than or equal to"
+msgstr ""
+
+#: views/survey/admin/conditional-logic-result.php:33
+msgid "is less than or equal to"
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:23
+msgid "Conditional Logic"
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:41
+msgid "Show"
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:42
+msgid "Hide"
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:45
+msgid " if "
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:48
+msgid "any"
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:49
+msgid "all"
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:52
+msgid " conditions match."
+msgstr ""
+
+#: views/survey/admin/conditional-logic.php:61
+msgid "Add Condition:"
+msgstr ""
+
+#: views/survey/admin/confirmation.php:25
+#: views/survey/admin/slide-options.php:25
+msgid "Confirmation Message"
+msgstr ""
+
+#: views/survey/admin/contact.php:36
+msgid "Button Action"
+msgstr ""
+
+#: views/survey/admin/contact.php:40
+msgid "Form Submit"
+msgstr ""
+
+#: views/survey/admin/contact.php:41
+msgid "Next Slide"
+msgstr ""
+
+#: views/survey/admin/icons.php:24
+msgid "Add Icon"
+msgstr ""
+
+#: views/survey/admin/redirect.php:26
+msgid "How To Guide"
+msgstr ""
+
+#: views/survey/admin/redirect.php:35
+msgid "Redirect Endpoint"
+msgstr ""
+
+#: views/survey/admin/redirect.php:49
+msgid "First Name Key"
+msgstr ""
+
+#: views/survey/admin/redirect.php:63
+msgid "Last Name Key"
+msgstr ""
+
+#: views/survey/admin/redirect.php:77
+msgid "Email Key"
+msgstr ""
+
+#: views/survey/admin/redirect.php:91
+msgid "Phone Key"
+msgstr ""
+
+#: views/survey/admin/redirect.php:105
+msgid "Additional Args"
+msgstr ""
+
+#: views/survey/admin/slide-options.php:19
+msgid "Icons"
+msgstr ""
+
+#: views/survey/admin/slide-options.php:21
+msgid "Buttons"
+msgstr ""
+
+#: views/survey/admin/slide-options.php:22
+msgid "Amount Slider"
+msgstr ""
+
+#: views/survey/admin/slide-options.php:24
+msgid "Processing"
+msgstr ""
+
+#: views/survey/admin/slide-options.php:26
+msgid "Redirect"
+msgstr ""
+
+#: views/survey/admin/slide-start.php:35
+msgid "Lead Field Label"
+msgstr ""
+
+#: views/survey/admin/slide-start.php:42
+msgid "Heading"
+msgstr ""
+
+#: views/survey/admin/slide-start.php:45
+msgid "Note"
+msgstr ""
+
+#: views/survey/admin/slide-start.php:50
+msgid "Sub Heading"
+msgstr ""
+
+#: views/survey/admin/slides.php:21
+msgid "Please add at least 1 silde."
+msgstr ""
+
+#: views/survey/admin/slides.php:26
+msgid "Note:"
+msgstr ""
+
+#: views/survey/admin/slides.php:27
+msgid "All survey forms must end with a contact form with Lead Fields, processing slide, and confirmation message or redirect."
+msgstr ""
+
+#: views/survey/admin/slides.php:28
+msgid "Only 1 contact form with contact fields can be submitted per request. Use contact forms with Text Input lead fields instead."
+msgstr ""
+
+#: views/survey/admin/styles.php:30
+msgid "Theme"
+msgstr ""
+
+#: views/survey/admin/styles.php:38
+msgid "Default"
+msgstr ""
+
+#: views/survey/admin/styles.php:39
+msgid "Default Dark"
+msgstr ""
+
+#: views/survey/admin/styles.php:40
+msgid "Authentic"
+msgstr ""
+
+#: views/survey/admin/styles.php:41
+msgid "Circumference"
+msgstr ""
+
+#: views/survey/admin/styles.php:42
+msgid "Disk"
+msgstr ""
+
+#: views/survey/admin/styles.php:43
+msgid "Impress"
+msgstr ""
+
+#: views/survey/admin/styles.php:44
+msgid "Passage"
+msgstr ""
+
+#: views/survey/admin/styles.php:45
+msgid "Perimeter"
+msgstr ""
+
+#: views/survey/admin/styles.php:46
+msgid "Precise"
+msgstr ""
+
+#: views/survey/admin/styles.php:47
+msgid "Realistic"
+msgstr ""
+
+#: views/survey/admin/styles.php:48
+msgid "Sphere"
+msgstr ""
+
+#: views/survey/admin/styles.php:70
+msgid "Icon Color"
+msgstr ""
+
+#: views/survey/admin/styles.php:89
+msgid "Icon Hover Color"
+msgstr ""
+
+#: views/survey/admin/styles.php:108
+msgid "Button Color"
+msgstr ""
+
+#: views/survey/admin/styles.php:127
+msgid "Button Hover Color"
+msgstr ""
+
+#: views/survey/admin/styles.php:146
+msgid "Button Text Color"
+msgstr ""
+
+#: views/survey/admin/template.php:20
+msgid " Create Slides from Template"
+msgstr ""
+
+#: views/survey/admin/template.php:33
+msgid "NOTE:"
+msgstr ""
+
+#: views/survey/admin/template.php:34
+msgid "This will overwrite all current slides."
+msgstr ""
+
+#: views/survey/admin/text.php:25
+msgid "Input Mask"
+msgstr ""
+
+#: views/survey/admin/text.php:32
+msgid "US Zip Code 99999"
+msgstr ""
+
+#: views/survey/admin/text.php:33
+msgid "Canada Postal Code a9a-9a9"
+msgstr ""
+
+#: views/survey/admin/text.php:34
+msgid "9999"
+msgstr ""
+
+#: views/survey/admin/text.php:35
+msgid "99999[-9999]"
+msgstr ""
+
+#: views/survey/form/amount.php:28
+#: views/survey/form/text.php:26
+msgid "Next"
+msgstr ""
+
+#: views/survey/form/icon.php:23
+msgid "Icon"
+msgstr ""
+
+#: views/survey/widget/button-form.php:21
+#: views/survey/widget/form.php:18
+msgid "Survey Form"
+msgstr ""
+
+#: views/survey/widget/button-form.php:24
+msgid "Align Button"
+msgstr ""

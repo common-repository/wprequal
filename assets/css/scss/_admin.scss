@@ -1,0 +1,183 @@
+// WPrequal Admin Styles
+// --------------------------------------------------
+
+.wp-admin {
+    #toplevel_page_edit-post_type-wpq_survey_form,
+    #toplevel_page_edit-post_type-wpq_contact_form,
+    #toplevel_page_edit-post_type-wpq_register_form {
+        img {
+            width: auto;
+            height: 38px;
+            transform: translatey(-6px);
+        }
+    }
+
+    a {
+        &.toplevel_page_wprequal_options,
+        &.menu-icon-wprequal_lead,
+        &.menu-icon-wprequal_slide {
+            img {
+                width: auto;
+                height: 38px;
+                transform: translatey(-6px);
+            }
+        }
+    }
+
+    .slide-options {
+        clear: both;
+
+        #slide-label {
+            width: 100%;
+            padding: 12px 5px;
+            &.required {
+                border: thin solid rgba(255, 0, 0, 0.72);
+                background-color: rgba(255, 0, 0, 0.1);
+            }
+        }
+
+        .option {
+            width: 100%;
+            text-align: center;
+            padding: 15px 0;
+            color: #FFFFFF;
+            background-color: #0A246A;
+            margin: 1px auto;
+
+            &:hover {
+               background-color: rgba(10, 36, 106, 0.74);
+            }
+        }
+    }
+
+    .survey-slides,
+    .contact-inputs {
+
+        .slide {
+            padding: 12px 10px;
+            border: thin solid #cccccc;
+            background-color: #FFFFFF;
+            margin: 3px auto;
+
+            &.hidden {
+                display: block;
+            }
+
+            &.processing,
+            &.contact {
+
+                // Fix for processing conflict
+                &:before,
+                &:after {
+                    content: unset;
+                    color: unset;
+                    display: unset;
+                    font: unset;
+                }
+
+                .lead-field {
+                    display: none;
+                }
+
+            }
+
+            .point {
+                padding: 0 10px 0 0;
+                cursor: pointer;
+                color: #999;
+            }
+
+            .slide-head {
+
+                .point {
+                    padding: 0 10px 0 0;
+                    cursor: pointer;
+                    color: #CCC;
+
+                    &.red {
+                        color: rgba(255, 0, 0, 0.72)
+                    }
+                }
+
+                .right {
+                    float: right;
+                }
+
+                .light-gray {
+                    color: #ccc;
+                }
+
+                .type-label {
+                    padding: 0 20px;
+                }
+
+                .label {
+                    font-size: 16px;
+                    color: #333;
+                }
+            }
+
+            .form-table {
+                display: none;
+            }
+
+            .wpq-empty {
+                color: #9C0000;
+                background-color: rgba(156, 0, 0, 0.23);
+                border-color: #9C0000;
+            }
+
+        }
+
+        .conditional-logic {
+            &.hide {
+                display: none;
+            }
+
+            .logic {
+                padding: 4px;
+                margin-bottom: 4px;
+            }
+
+        }
+
+    }
+
+    .template-msg {
+        padding: 18px 0;
+    }
+
+    .wpq-loading {
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #FFF;
+        z-index: 9999;
+
+        .survey-loading {
+            position: fixed;
+            display: block;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 7rem;
+        }
+    }
+
+    .wpq-submitbox {
+
+        .delete-action {
+            float: right !important;
+            padding: 20px 0;
+        }
+
+    }
+
+    .template {
+        padding: 10px 0;
+    }
+
+}
